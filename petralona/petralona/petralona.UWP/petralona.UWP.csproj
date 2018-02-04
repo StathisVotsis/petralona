@@ -4,7 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{07485D64-75B5-49D8-97B4-E416B1DDD73F}</ProjectGuid>
+=======
+    <ProjectGuid>{FCBD9C83-2F50-4E64-A229-7276C0366592}</ProjectGuid>
+>>>>>>> 08750300ccb9241fe949f6769e83d4d12e03c50c
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>petralona.UWP</RootNamespace>
@@ -148,6 +152,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
   </ItemGroup>
@@ -157,6 +162,15 @@
       <Name>petralona</Name>
     </ProjectReference>
   </ItemGroup>
+=======
+    <PackageReference Include="ParticleXamarinSDK">
+      <Version>1.4.6151.16195</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
+  </ItemGroup>
+  <Import Project="..\petralona\petralona.projitems" Label="Shared" />
+>>>>>>> 08750300ccb9241fe949f6769e83d4d12e03c50c
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

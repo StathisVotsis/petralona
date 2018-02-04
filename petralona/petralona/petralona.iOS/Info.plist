@@ -21,7 +21,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
+<<<<<<< HEAD
 	<string>11.2</string>
+=======
+	<string>10.3</string>
+>>>>>>> 08750300ccb9241fe949f6769e83d4d12e03c50c
 	<key>CFBundleDisplayName</key>
 	<string>petralona</string>
 	<key>CFBundleIdentifier</key>

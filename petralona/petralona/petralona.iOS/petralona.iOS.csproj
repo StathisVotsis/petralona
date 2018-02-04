@@ -5,7 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
     <ProjectGuid>{73DB396B-6FA9-4395-8ACA-A42628989FBC}</ProjectGuid>
+=======
+    <ProjectGuid>{D3E045B3-59FF-422A-B997-94B049BF8027}</ProjectGuid>
+>>>>>>> 08750300ccb9241fe949f6769e83d4d12e03c50c
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>petralona.iOS</RootNamespace>
@@ -122,6 +126,7 @@
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\petralona\petralona.csproj">
       <Project>{DC971F18-5B97-4A0C-AED9-D3208157CADE}</Project>
@@ -136,4 +141,7 @@
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
+=======
+  <Import Project="..\petralona\petralona.projitems" Label="Shared" />
+>>>>>>> 08750300ccb9241fe949f6769e83d4d12e03c50c
 </Project>
