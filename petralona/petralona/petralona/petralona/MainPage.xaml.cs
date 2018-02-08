@@ -18,8 +18,6 @@ namespace petralona
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //var pass1 = usern.Text;
-            //var pass1 = MainPage.userna
             var pass1 = username.Text;
             var pass2 = password.Text;
             username.Text = "";
@@ -45,8 +43,7 @@ namespace petralona
 
         private void NewPage(string st3, string st4)
         {
-            //Application.Current.MainPage = new SecondPage();
-            //Application.Current.MainPage = new ListViewPage1();
+            Application.Current.MainPage = new SecondPage();
         }
     }
 }
