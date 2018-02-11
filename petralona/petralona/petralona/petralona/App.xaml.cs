@@ -13,8 +13,12 @@ namespace petralona
 		{
 			InitializeComponent();
 
-			MainPage = new petralona.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.SkyBlue,
+                BarTextColor = Color.White
+            };
+        }
 
 		protected override void OnStart ()
 		{

@@ -14,7 +14,7 @@ namespace petralona
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+        }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
@@ -43,7 +43,13 @@ namespace petralona
 
         private void NewPage(string st3, string st4)
         {
-            Application.Current.MainPage = new SecondPage();
+            //Application.Current.MainPage = new SecondPage();
+            //var navigationPage = new NavigationPage(new SecondPage())
+            //{
+                //BarBackgroundColor = Color.SkyBlue,
+                //BarTextColor = Color.WhiteSmoke
+            //};
+            Navigation.PushAsync(new SecondPage());
         }
     }
 }

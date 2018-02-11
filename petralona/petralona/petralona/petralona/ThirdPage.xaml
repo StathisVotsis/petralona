@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="petralona.ThirdPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Control Main Power"
+                     Margin="20"
+                     FontSize="20"
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="On"
+                HorizontalOptions="Center"
+                     WidthRequest="100"
+                BackgroundColor="Green"
+                Clicked="Button_Clicked_1"/>
+            <Button Text="Off"
+                HorizontalOptions="Center"
+                     WidthRequest="100"
+                BackgroundColor="Red"    
+                Clicked="Button_Clicked_2"/>
+            <Label Text="Control Door"
+                     Margin="20"
+                     FontSize="20"
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Open Door"
+                HorizontalOptions="Center"
+                     WidthRequest="100"
+                BackgroundColor="Green"    
+                Clicked="Button_Clicked_3"/>
+            <Label TextColor="#00BFFF" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand" FontSize = "20" Text="Created by S.Votsis" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
